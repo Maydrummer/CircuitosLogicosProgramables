@@ -1,0 +1,129 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Simulacion
+Esum1b
+Z0 w1711311898
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Simulacion
+Z4 8C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sum1b.vhd
+Z5 FC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sum1b.vhd
+l0
+L4
+VPC<G_K^emQFT;IhbMa0j<2
+!s100 QIURAH[fVN4;ddCTn9`5S3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1711420325
+!i10b 1
+Z8 !s108 1711420325.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sum1b.vhd|
+Z10 !s107 C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sum1b.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asum1b_arq
+R1
+R2
+DEx4 work 5 sum1b 0 22 PC<G_K^emQFT;IhbMa0j<2
+l16
+L14
+VH@=l0jbX`0I>gfI0=G0I^3
+!s100 YFb6?HUJDV9n=BMVoDK9M1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esumnb
+Z13 w1711420384
+R1
+R2
+R3
+Z14 8C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb.vhd
+Z15 FC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb.vhd
+l0
+L4
+VaMmL=E3BT``=^4RAINUIM1
+!s100 0oSBMS<XbIFOASmlWDZgX2
+R6
+32
+Z16 !s110 1711420393
+!i10b 1
+Z17 !s108 1711420393.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb.vhd|
+Z19 !s107 C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb.vhd|
+!i113 1
+R11
+R12
+Asumnb_arq
+R1
+R2
+DEx4 work 5 sumnb 0 22 aMmL=E3BT``=^4RAINUIM1
+l29
+L17
+VF_Q]N_I;nnQnQo90K5J8j2
+!s100 PJj7W4^7nzS7IA4B74_kk1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Esumnb_tb
+Z20 w1711420289
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R1
+R2
+R3
+Z22 8C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb_tb.vhd
+Z23 FC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb_tb.vhd
+l0
+L5
+V]_??RoW9lB5?V43zWSzgh0
+!s100 1NOB_z_^ISBhb5BWjm?kZ1
+R6
+32
+R7
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb_tb.vhd|
+Z25 !s107 C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb_tb.vhd|
+!i113 1
+R11
+R12
+Asumnb_tb_arq
+R21
+R1
+R2
+DEx4 work 8 sumnb_tb 0 22 ]_??RoW9lB5?V43zWSzgh0
+l32
+L8
+V6<=RSOj2Z?d1RNRg3XUel2
+!s100 8PkTUiczUDcm8j9Dza]8>0
+R6
+32
+R7
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12

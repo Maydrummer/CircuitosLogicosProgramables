@@ -1,0 +1,26 @@
+C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sum1b.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sum1b.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sum1b
+-- Compiling architecture sum1b_arq of sum1b
+
+} {} {}} C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sumNb
+-- Compiling architecture sumNb_arq of sumNb
+
+} {} {}} C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumadorNb/Fuentes/sumNb_tb.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sumNb_tb
+-- Compiling architecture sumNb_tb_arq of sumNb_tb
+
+} {} {}}

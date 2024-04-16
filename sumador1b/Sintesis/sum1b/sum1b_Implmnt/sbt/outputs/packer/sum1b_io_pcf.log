@@ -1,0 +1,5 @@
+OUTPUT s_o 	 location (9, 31, 1) 	 36 	 
+OUTPUT co_o 	 location (8, 31, 0) 	 42 	 
+INPUT  ci_i 	 location (13, 31, 1) 	 34 	 
+INPUT  b_i 	 location (19, 31, 1) 	 25 	 
+INPUT  a_i 	 location (19, 31, 0) 	 23 	 

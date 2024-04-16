@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40UP5KSG48 (Lattice)
+
+---------------------------------------------------------------------
+########   Utilization report for  Top level view:   sum1b   ########
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUTS     2                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block sum1b:	2 (22.22 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     5                  100 %                
+=================================================
+Total IO PADS in the block sum1b:	5 (55.56 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

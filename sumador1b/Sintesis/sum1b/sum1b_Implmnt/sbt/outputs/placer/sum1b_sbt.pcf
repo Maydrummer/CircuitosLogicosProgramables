@@ -1,0 +1,8 @@
+set_location s_o_1.SUM[0] 13 30 0 # SB_LUT4 (LogicCell: s_o_1.SUM[0]_LC_0)
+set_location s_o_1.co_o_0_i 13 30 1 # SB_LUT4 (LogicCell: s_o_1.co_o_0_i_LC_1)
+set_location GND -1 -1 -1 # GND
+set_io a_i_ibuf 19 31 0 # ICE_IO
+set_io b_i_ibuf 19 31 1 # ICE_IO
+set_io ci_i_ibuf 13 31 1 # ICE_IO
+set_io co_o_obuf 8 31 0 # ICE_IO
+set_io s_o_obuf 9 31 1 # ICE_IO

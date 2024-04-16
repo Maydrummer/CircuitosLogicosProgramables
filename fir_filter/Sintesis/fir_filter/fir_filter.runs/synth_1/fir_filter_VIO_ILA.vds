@@ -1,0 +1,537 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Apr 14 19:41:52 2024
+# Process ID: 12828
+# Current directory: C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1
+# Command line: vivado.exe -log fir_filter_VIO_ILA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fir_filter_VIO_ILA.tcl
+# Log file: C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/fir_filter_VIO_ILA.vds
+# Journal file: C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fir_filter_VIO_ILA.tcl -notrace
+Command: synth_design -top fir_filter_VIO_ILA -part xc7z010clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12928 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 405.188 ; gain = 98.277
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'fir_filter_VIO_ILA' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:12]
+INFO: [Synth 8-3491] module 'vio_0' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/vio_0_stub.vhdl:5' bound to instance 'vio_inst' of component 'vio_0' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'vio_0' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/vio_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'gen_sin' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/gen_sin.vhd:5' bound to instance 'gen_sin_inst' of component 'gen_sin' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'gen_sin' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/gen_sin.vhd:17]
+INFO: [Synth 8-3491] module 'cordic_1' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/cordic_1_stub.vhdl:5' bound to instance 'cordic_inst_0' of component 'cordic_1' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/gen_sin.vhd:47]
+INFO: [Synth 8-638] synthesizing module 'cordic_1' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/cordic_1_stub.vhdl:16]
+INFO: [Synth 8-3491] module 'cordic_1' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/cordic_1_stub.vhdl:5' bound to instance 'cordic_inst_1' of component 'cordic_1' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/gen_sin.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'gen_sin' (1#1) [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/gen_sin.vhd:17]
+INFO: [Synth 8-3491] module 'fir_filter' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:6' bound to instance 'fir_filter_inst' of component 'fir_filter' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'fir_filter' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'fir_filter' (2#1) [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:15]
+INFO: [Synth 8-3491] module 'ila_0' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/ila_0_stub.vhdl:5' bound to instance 'ila_instance' of component 'ila_0' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/ila_0_stub.vhdl:14]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'your_instance_name' of component 'clk_wiz_0' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/.Xil/Vivado-12828-DESKTOP-VKP0780/realtime/clk_wiz_0_stub.vhdl:14]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'gen_sin_inst'. This will prevent further optimization [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:75]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'fir_filter_inst'. This will prevent further optimization [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'fir_filter_VIO_ILA' (3#1) [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter_VIO_ILA.vhd:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 458.898 ; gain = 151.988
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 458.898 ; gain = 151.988
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 458.898 ; gain = 151.988
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/cordic_1/cordic_1/cordic_1_in_context.xdc] for cell 'gen_sin_inst/cordic_inst_0'
+Finished Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/cordic_1/cordic_1/cordic_1_in_context.xdc] for cell 'gen_sin_inst/cordic_inst_0'
+Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/cordic_1/cordic_1/cordic_1_in_context.xdc] for cell 'gen_sin_inst/cordic_inst_1'
+Finished Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/cordic_1/cordic_1/cordic_1_in_context.xdc] for cell 'gen_sin_inst/cordic_inst_1'
+Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'vio_inst'
+Finished Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/vio_0/vio_0/vio_0_in_context.xdc] for cell 'vio_inst'
+Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_instance'
+Finished Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'ila_instance'
+Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'your_instance_name'
+Finished Parsing XDC File [c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'your_instance_name'
+Parsing XDC File [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/lab1_ArtyZ7_10.xdc]
+Finished Parsing XDC File [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/lab1_ArtyZ7_10.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/lab1_ArtyZ7_10.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/fir_filter_VIO_ILA_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/fir_filter_VIO_ILA_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 798.395 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '10.000' specified during out-of-context synthesis of instance 'vio_inst' at clock pin 'clk' is different from the actual clock period '8.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'gen_sin_inst/cordic_inst_0' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'gen_sin_inst/cordic_inst_1' at clock pin 'aclk' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 798.395 ; gain = 491.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 798.395 ; gain = 491.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_i. (constraint file  c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_i. (constraint file  c:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property DONT_TOUCH = true for gen_sin_inst/cordic_inst_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for gen_sin_inst/cordic_inst_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for vio_inst. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ila_instance. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for your_instance_name. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 798.395 ; gain = 491.484
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[8] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element sum_0_reg[2] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:70]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element sum_0_reg[0] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:70]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[6] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[8] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 798.395 ; gain = 491.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     36 Bit       Adders := 1     
+	   2 Input     35 Bit       Adders := 1     
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 4     
++---Registers : 
+	               36 Bit    Registers := 1     
+	               35 Bit    Registers := 1     
+	               34 Bit    Registers := 2     
+	               28 Bit    Registers := 2     
+	               16 Bit    Registers := 14    
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module gen_sin 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     31 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 4     
++---Registers : 
+	               16 Bit    Registers := 4     
++---Muxes : 
+	   2 Input     31 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+Module fir_filter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     36 Bit       Adders := 1     
+	   2 Input     35 Bit       Adders := 1     
++---Registers : 
+	               36 Bit    Registers := 1     
+	               35 Bit    Registers := 1     
+	               34 Bit    Registers := 2     
+	               28 Bit    Registers := 2     
+	               16 Bit    Registers := 10    
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[0][15:0]' into 'delayed_signal_reg[0][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[2][15:0]' into 'delayed_signal_reg[2][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[0][15:0]' into 'delayed_signal_reg[0][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[3][15:0]' into 'delayed_signal_reg[3][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[1][15:0]' into 'delayed_signal_reg[1][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[0] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[2] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[0] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[1][15:0]' into 'delayed_signal_reg[1][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[4][15:0]' into 'delayed_signal_reg[4][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[2][15:0]' into 'delayed_signal_reg[2][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[5][15:0]' into 'delayed_signal_reg[5][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[3][15:0]' into 'delayed_signal_reg[3][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[4][15:0]' into 'delayed_signal_reg[4][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[5][15:0]' into 'delayed_signal_reg[5][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[6][15:0]' into 'delayed_signal_reg[6][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+INFO: [Synth 8-4471] merging register 'delayed_signal_reg[7][15:0]' into 'delayed_signal_reg[7][15:0]' [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[2] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[4] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[6] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[4] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[5] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[8] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[4] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element sum_0_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:70]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[0] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element sum_0_reg[1] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:70]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[3] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[6] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element prod_reg[2] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:62]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[7] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element delayed_signal_reg[8] was removed.  [C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Fuentes/fir_filter.vhd:49]
+DSP Report: Generating DSP sum_0_reg[4], operation Mode is: (A''*(B:0x4f6))'.
+DSP Report: register delayed_signal_reg[7] is absorbed into DSP sum_0_reg[4].
+DSP Report: register delayed_signal_reg[8] is absorbed into DSP sum_0_reg[4].
+DSP Report: register sum_0_reg[4] is absorbed into DSP sum_0_reg[4].
+DSP Report: register prod_reg[8] is absorbed into DSP sum_0_reg[4].
+DSP Report: operator prod_reg[8]0 is absorbed into DSP sum_0_reg[4].
+DSP Report: Generating DSP prod_reg[4], operation Mode is: (A''*(B:0x160f))'.
+DSP Report: register delayed_signal_reg[3] is absorbed into DSP prod_reg[4].
+DSP Report: register delayed_signal_reg[4] is absorbed into DSP prod_reg[4].
+DSP Report: register prod_reg[4] is absorbed into DSP prod_reg[4].
+DSP Report: operator prod_reg[4]0 is absorbed into DSP prod_reg[4].
+DSP Report: Generating DSP sum_0_reg[2], operation Mode is: (PCIN+(ACIN2*(B:0x1496))')'.
+DSP Report: register delayed_signal_reg[5] is absorbed into DSP sum_0_reg[2].
+DSP Report: register sum_0_reg[2] is absorbed into DSP sum_0_reg[2].
+DSP Report: register prod_reg[5] is absorbed into DSP sum_0_reg[2].
+DSP Report: operator sum_0_reg[2]0 is absorbed into DSP sum_0_reg[2].
+DSP Report: operator prod_reg[5]0 is absorbed into DSP sum_0_reg[2].
+DSP Report: Generating DSP prod_reg[6], operation Mode is: (ACIN2*(B:0x1089))'.
+DSP Report: register delayed_signal_reg[6] is absorbed into DSP prod_reg[6].
+DSP Report: register prod_reg[6] is absorbed into DSP prod_reg[6].
+DSP Report: operator prod_reg[6]0 is absorbed into DSP prod_reg[6].
+DSP Report: Generating DSP sum_0_reg[3], operation Mode is: (PCIN+(A''*(B:0xae4))')'.
+DSP Report: register delayed_signal_reg[6] is absorbed into DSP sum_0_reg[3].
+DSP Report: register delayed_signal_reg[7] is absorbed into DSP sum_0_reg[3].
+DSP Report: register sum_0_reg[3] is absorbed into DSP sum_0_reg[3].
+DSP Report: register prod_reg[7] is absorbed into DSP sum_0_reg[3].
+DSP Report: operator sum_0_reg[3]0 is absorbed into DSP sum_0_reg[3].
+DSP Report: operator prod_reg[7]0 is absorbed into DSP sum_0_reg[3].
+DSP Report: Generating DSP sum_1_reg[1], operation Mode is: (PCIN+A:B)'.
+DSP Report: register sum_1_reg[1] is absorbed into DSP sum_1_reg[1].
+DSP Report: operator sum_1_reg[1]0 is absorbed into DSP sum_1_reg[1].
+DSP Report: Generating DSP prod_reg[0], operation Mode is: (A2*(B:0x4f6))'.
+DSP Report: register delayed_signal_reg[0] is absorbed into DSP prod_reg[0].
+DSP Report: register prod_reg[0] is absorbed into DSP prod_reg[0].
+DSP Report: operator prod_reg[0]0 is absorbed into DSP prod_reg[0].
+DSP Report: Generating DSP sum_0_reg[0], operation Mode is: (PCIN+(A''*(B:0xae4))')'.
+DSP Report: register delayed_signal_reg[0] is absorbed into DSP sum_0_reg[0].
+DSP Report: register delayed_signal_reg[1] is absorbed into DSP sum_0_reg[0].
+DSP Report: register sum_0_reg[0] is absorbed into DSP sum_0_reg[0].
+DSP Report: register prod_reg[1] is absorbed into DSP sum_0_reg[0].
+DSP Report: operator sum_0_reg[0]0 is absorbed into DSP sum_0_reg[0].
+DSP Report: operator prod_reg[1]0 is absorbed into DSP sum_0_reg[0].
+DSP Report: Generating DSP prod_reg[2], operation Mode is: (ACIN''*(B:0x1089))'.
+DSP Report: register delayed_signal_reg[1] is absorbed into DSP prod_reg[2].
+DSP Report: register delayed_signal_reg[2] is absorbed into DSP prod_reg[2].
+DSP Report: register prod_reg[2] is absorbed into DSP prod_reg[2].
+DSP Report: operator prod_reg[2]0 is absorbed into DSP prod_reg[2].
+DSP Report: Generating DSP sum_0_reg[1], operation Mode is: (PCIN+(A''*(B:0x1496))')'.
+DSP Report: register delayed_signal_reg[2] is absorbed into DSP sum_0_reg[1].
+DSP Report: register delayed_signal_reg[3] is absorbed into DSP sum_0_reg[1].
+DSP Report: register sum_0_reg[1] is absorbed into DSP sum_0_reg[1].
+DSP Report: register prod_reg[3] is absorbed into DSP sum_0_reg[1].
+DSP Report: operator sum_0_reg[1]0 is absorbed into DSP sum_0_reg[1].
+DSP Report: operator prod_reg[3]0 is absorbed into DSP sum_0_reg[1].
+DSP Report: Generating DSP sum_1_reg[0], operation Mode is: (PCIN+A:B)'.
+DSP Report: register sum_1_reg[0] is absorbed into DSP sum_1_reg[0].
+DSP Report: operator sum_1_reg[0]0 is absorbed into DSP sum_1_reg[0].
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gen_sin_inst/i_0/\phase_30Mhz_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gen_sin_inst/i_0/\phase_30Mhz_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gen_sin_inst/i_1/\phase_2Mhz_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (gen_sin_inst/i_1/\phase_2Mhz_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[34]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[33]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[32]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[31]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[30]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[29]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[13]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[12]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[11]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[10]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[9]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[8]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[7]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[6]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[5]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[4]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[3]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[2]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[1]) is unused and will be removed from module fir_filter.
+WARNING: [Synth 8-3332] Sequential element (sum_3_reg[0]) is unused and will be removed from module fir_filter.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 798.395 ; gain = 491.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+-----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping                 | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|fir_filter  | (A''*(B:0x4f6))'            | 16     | 12     | -      | -      | 28     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|fir_filter  | (A''*(B:0x160f))'           | 16     | 14     | -      | -      | 30     | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|fir_filter  | (PCIN+(ACIN2*(B:0x1496))')' | 16     | 14     | -      | -      | 33     | 1    | 0    | -    | -    | -     | 1    | 1    | 
+|fir_filter  | (ACIN2*(B:0x1089))'         | 16     | 14     | -      | -      | 30     | 1    | 0    | -    | -    | -     | 1    | 0    | 
+|fir_filter  | (PCIN+(A''*(B:0xae4))')'    | 16     | 13     | -      | -      | 33     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|fir_filter  | (PCIN+A:B)'                 | 15     | 18     | -      | -      | -1     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|fir_filter  | (A2*(B:0x4f6))'             | 16     | 12     | -      | -      | 28     | 1    | 0    | -    | -    | -     | 1    | 0    | 
+|fir_filter  | (PCIN+(A''*(B:0xae4))')'    | 16     | 13     | -      | -      | 33     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|fir_filter  | (ACIN''*(B:0x1089))'        | 16     | 14     | -      | -      | 30     | 2    | 0    | -    | -    | -     | 1    | 0    | 
+|fir_filter  | (PCIN+(A''*(B:0x1496))')'   | 16     | 14     | -      | -      | 33     | 2    | 0    | -    | -    | -     | 1    | 1    | 
+|fir_filter  | (PCIN+A:B)'                 | 15     | 18     | -      | -      | -1     | 0    | 0    | -    | -    | -     | 0    | 1    | 
++------------+-----------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'your_instance_name/clk_out1' to pin 'your_instance_name/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'your_instance_name/clk_out2' to pin 'your_instance_name/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 863.152 ; gain = 556.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:35 . Memory (MB): peak = 874.574 ; gain = 567.664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|fir_filter  | delayed_signal_reg[5][15] | 3      | 16    | NO           | NO                 | YES               | 16     | 0       | 
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |cordic_1      |         2|
+|2     |vio_0         |         1|
+|3     |ila_0         |         1|
+|4     |clk_wiz_0     |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |clk_wiz_0_bbox_5 |     1|
+|2     |cordic_1_bbox_2  |     1|
+|3     |cordic_1_bbox_3  |     1|
+|4     |ila_0_bbox_4     |     1|
+|5     |vio_0_bbox_1     |     1|
+|6     |CARRY4           |    50|
+|7     |DSP48E1          |     3|
+|8     |DSP48E1_1        |     1|
+|9     |DSP48E1_2        |     1|
+|10    |DSP48E1_3        |     1|
+|11    |DSP48E1_4        |     2|
+|12    |DSP48E1_5        |     1|
+|13    |DSP48E1_6        |     1|
+|14    |DSP48E1_7        |     1|
+|15    |LUT1             |    34|
+|16    |LUT2             |   106|
+|17    |LUT3             |    70|
+|18    |SRL16E           |    16|
+|19    |FDCE             |    64|
+|20    |FDRE             |   215|
++------+-----------------+------+
+
+Report Instance Areas: 
++------+------------------+-----------+------+
+|      |Instance          |Module     |Cells |
++------+------------------+-----------+------+
+|1     |top               |           |   636|
+|2     |  gen_sin_inst    |gen_sin    |   329|
+|3     |  fir_filter_inst |fir_filter |   303|
++------+------------------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:34 ; elapsed = 00:00:36 . Memory (MB): peak = 876.035 ; gain = 569.125
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 69 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 876.035 ; gain = 229.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 876.035 ; gain = 569.125
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 61 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+52 Infos, 72 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 876.035 ; gain = 570.863
+INFO: [Common 17-1381] The checkpoint 'C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/fir_filter/Sintesis/fir_filter/fir_filter.runs/synth_1/fir_filter_VIO_ILA.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file fir_filter_VIO_ILA_utilization_synth.rpt -pb fir_filter_VIO_ILA_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 876.035 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 14 19:42:41 2024...

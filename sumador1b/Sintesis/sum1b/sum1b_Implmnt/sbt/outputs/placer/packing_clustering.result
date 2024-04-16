@@ -1,0 +1,3 @@
+ble_pack s_o_1.SUM[0]_LC_0 {s_o_1.SUM[0]}
+ble_pack s_o_1.co_o_0_i_LC_1 {s_o_1.co_o_0_i}
+clb_pack PLB_0 {s_o_1.SUM[0]_LC_0, s_o_1.co_o_0_i_LC_1}

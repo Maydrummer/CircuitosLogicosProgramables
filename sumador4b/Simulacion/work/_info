@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Simulacion
+Esum1b
+Z1 w1711311898
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum1b.vhd
+Z5 FC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum1b.vhd
+l0
+L4
+VPC<G_K^emQFT;IhbMa0j<2
+!s100 QIURAH[fVN4;ddCTn9`5S3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1711323708
+!i10b 1
+Z8 !s108 1711323708.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum1b.vhd|
+Z10 !s107 C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum1b.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Asum1b_arq
+R2
+R3
+DEx4 work 5 sum1b 0 22 PC<G_K^emQFT;IhbMa0j<2
+l16
+L14
+VH@=l0jbX`0I>gfI0=G0I^3
+!s100 YFb6?HUJDV9n=BMVoDK9M1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esum4b
+Z13 w1711322579
+R2
+R3
+R0
+Z14 8C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b.vhd
+Z15 FC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b.vhd
+l0
+L4
+VJTUDChB555CP;3>JA8MXB3
+!s100 kS<[9Z=_RH?<SY9M8ogD<0
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b.vhd|
+Z17 !s107 C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b.vhd|
+!i113 1
+R11
+R12
+Asum4b_arq
+R2
+R3
+DEx4 work 5 sum4b 0 22 JTUDChB555CP;3>JA8MXB3
+l29
+L14
+Vl>Eb7WR9?>WkG1e8P4:2X2
+!s100 jAkZ@Qc:XJ_WNkfiH55gX1
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Esum4b_tb
+Z18 w1711323306
+R2
+R3
+R0
+Z19 8C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b_tb.vhd
+Z20 FC:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b_tb.vhd
+l0
+L4
+V5zQ0>Q:DdAgZik[9Fe?3P3
+!s100 ?;L=X01fDD[F1JJT]n5Qz2
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b_tb.vhd|
+Z22 !s107 C:/Users/thony/OneDrive/Escritorio/Maestria/CLP/codigos/sumador4b/Fuentes/sum4b_tb.vhd|
+!i113 1
+R11
+R12
+Asum4b_tb_arq
+R2
+R3
+DEx4 work 8 sum4b_tb 0 22 5zQ0>Q:DdAgZik[9Fe?3P3
+l24
+L7
+V6ZEY>d^:RB6BV2noLLYLL2
+!s100 C_USWB_kP0jkfWSVQQ>VW1
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12

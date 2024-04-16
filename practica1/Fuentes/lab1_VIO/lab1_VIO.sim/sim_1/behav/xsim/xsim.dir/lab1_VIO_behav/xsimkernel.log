@@ -1,0 +1,7 @@
+Running: xsim.dir/lab1_VIO_behav/xsimk.exe -simmode gui -wdb lab1_VIO_behav.wdb -simrunnum 0 -socket 55790
+Design successfully loaded
+Design Loading Memory Usage: 6304 KB (Peak: 6304 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 6880 KB (Peak: 6880 KB)
+Simulation CPU Usage: 15 ms

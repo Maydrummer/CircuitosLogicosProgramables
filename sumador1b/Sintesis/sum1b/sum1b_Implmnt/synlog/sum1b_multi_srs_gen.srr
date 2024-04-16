@@ -1,0 +1,13 @@
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"C:\Users\thony\OneDrive\Escritorio\Maestria\CLP\codigos\sumador1b\Fuentes\sum1b.vhd":4:7:4:11|Selected library: work cell: sum1b view sum1b_arq as top level
+@N: NF107 :"C:\Users\thony\OneDrive\Escritorio\Maestria\CLP\codigos\sumador1b\Fuentes\sum1b.vhd":4:7:4:11|Selected library: work cell: sum1b view sum1b_arq as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Apr 01 20:55:47 2024
+
+###########################################################]
